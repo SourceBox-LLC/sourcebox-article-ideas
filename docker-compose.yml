@@ -7,5 +7,5 @@ services:
     # Use your local .env file for configuration (Replicate, Notion, etc.)
     env_file:
       - .env
-    command: ["uv", "run", "main.py"]
+    command: ["uv", "run", "scheduler.py"]
     tty: true

@@ -21,4 +21,4 @@ RUN uv sync --frozen --no-dev
 COPY . .
 
 # Default command: run the script via uv
-CMD ["uv", "run", "main.py"]
+CMD ["uv", "run", "scheduler.py"]

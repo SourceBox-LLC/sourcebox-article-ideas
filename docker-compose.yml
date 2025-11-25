@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  article-drafter:
+    build: .
+    working_dir: /app
+    # Use your local .env file for configuration (Replicate, Notion, etc.)
+    env_file:
+      - .env
+    command: ["uv", "run", "main.py"]
+    tty: true

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+.venv/
+venv/
+.git/
+.gitignore
+.idea/
+.vscode/
+.mypy_cache/
+.pytest_cache/
+
+# Docker artifacts
+Dockerfile
